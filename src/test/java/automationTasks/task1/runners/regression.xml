@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestCase 1">
+    <test name="Regression TestCase1">
+        <parameter name="expectedText" value="Login to your account"> </parameter>
+        <parameter name="expectedMessage" value="olga one"> </parameter>
+
+
+        
+        <classes>
+            <class name="automationTasks.task1.tests.testCase2"> </class>
+        </classes>
+    </test>
+</suite>
