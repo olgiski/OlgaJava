@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import utils.BrowserUtils;
 
-public class AccountCreationPage {
+public class git AccountCreationPage {
     public AccountCreationPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
